@@ -1,0 +1,70 @@
+-----Question-------------- 
+
+Time: 1 Hour 
+
+Instructions: 
+     Create a react app 
+
+---- For Create React App not to take time, use https://codesandbox.io to code  --- 
+
+---- When you’re done, rename the project with your name as it appears on your CV and export it as a zip file. 
+
+
+
+-----------------------------------------------INSTRUCTIONS---------------------------------------------
+
+Make an API request to fetch a list of movies from the endpoint below (you can either use the authorization header and bearer token or use a api key directly to fetch the api) 
+
+Show every movie in a card containing the image, original_title, and release_date 
+
+Display the cards in grid-like rows (you can use flexbox or CSS grid) 
+
+ 
+
+--------BONUS Question---------
+
+In a select dropdown, 
+    
+     1. Add an option to sort the movies by vote_average      
+
+     2. Add an option to sort the movies by release_date 
+
+     3. Add pagination
+
+
+
+----API END POINT------
+
+Movies: https://api.themoviedb.org/3/movie/now_playing 
+
+Image: https://image.tmdb.org/t/p/original/<poster_path> 
+
+
+Header: {Authorization: Bearer <token>} 
+
+Token :  
+
+{
+   eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMjM3ZDQyMjk0MTA1Y2I0N2Q4MmZjMWJlOTgwMjZkMSIsInN1YiI6IjVmODk5NDc2ZjZmZDE4MDAzM2IxYmMxMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.d2PhAQfY88eaOS8DADQVaMMHlYdk1ymSgkCk0ndWPYo
+} 
+
+or
+
+Api Key : {f237d42294105cb47d82fc1be98026d1} 
+
+
+
+CODING INTERVIEW 
+
+https://codesandbox.io/s/sparkling-rain-yz6e8?file=/src/App.js
+https://stackblitz.com/edit/react-moviedb-itap?file=src/App.js
+https://stackoverflow.com/questions/50084887/how-to-sort-data-in-ascending-or-descending-order-in-reactjs
+https://stackoverflow.com/questions/30691066/sort-a-string-date-array
+https://stackblitz.com/edit/react-2njvau?file=index.js
+https://stackblitz.com/edit/react-moviedb-itap?file=src%2FApp.js
+
+
+
+
+
+ 
